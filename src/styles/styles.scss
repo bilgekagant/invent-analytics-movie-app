@@ -1,0 +1,99 @@
+// src/styles/styles.scss
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .movie-table {
+    th {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .movie-link {
+      text-decoration: none;
+      color: #007bff;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .img-thumbnail {
+      border: none;
+    }
+  }
+}
+
+.movie-detail {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+  }
+
+  .card-body {
+    padding: 20px;
+
+    .list-group-item {
+      border: none;
+      padding-left: 0;
+    }
+  }
+
+  .back-button {
+    margin-bottom: 20px;
+  }
+
+  .similar-movies {
+    h4 {
+      margin-bottom: 20px;
+    }
+
+    .card {
+      cursor: pointer;
+
+      .card-body {
+        padding: 10px;
+      }
+
+      .card-title {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .card-text {
+        font-size: 0.9rem;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

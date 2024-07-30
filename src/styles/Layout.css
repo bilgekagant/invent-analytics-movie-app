@@ -1,0 +1,12 @@
+/* src/components/Layout.css */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.main-content {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
